@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+dist/
+*.egg-info/
+.env
+# Raw downloads and large data stay out of Git
+data/raw/
+data/parquet/
